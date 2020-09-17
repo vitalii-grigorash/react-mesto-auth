@@ -7,7 +7,7 @@ class Main extends React.Component {
     static contextType = CurrentUserContext;
 
     onCardClick = (card) => {
-        this.props.handleCardClick(card);
+        this.props.onCardClick(card);
     };
 
     render () {
@@ -47,8 +47,8 @@ class Main extends React.Component {
                             key={card._id} 
                             card={card} 
                             onCardClick={this.onCardClick} 
-                            onCardLike={this.props.handleCardLike} 
-                            onCardDelete={this.props.handleCardDelete}
+                            onCardLike={this.props.onCardLike} 
+                            onCardDelete={this.props.onCardDelete}
                         />
                     ))}
                 </section>

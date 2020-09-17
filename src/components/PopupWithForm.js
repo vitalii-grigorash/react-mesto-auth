@@ -1,4 +1,5 @@
 import React from 'react';
+import MainForm from './MainForm';
 
 function PopupWithForm (props) {
 
@@ -10,7 +11,9 @@ function PopupWithForm (props) {
         title,
         children,
         submit,
-        isLoading
+        isLoading,
+        noConfirm,
+        disabled
     } = props;
 
     return (
@@ -29,29 +32,18 @@ function PopupWithForm (props) {
                     onClick={onClose}
                 ></button>
 
-                <form
-                    className={`popup__forms popup__forms_${name}`}
+                <MainForm
+                    isPopup={true}
+                    name={name}
                     onSubmit={onSubmit}
+                    isLoading={isLoading}
+                    title={title}
+                    children={children}
+                    disabled={disabled}
+                    submit={submit}
+                    noConfirm={noConfirm}
                 >
-
-                    <h2 className="popup__heading">{title}</h2>
-
-                    
-                    {children}
-                    
-
-                    <div className="popup__handlers">
-
-                        <button
-                            type='submit'
-                            className="popup__submit-button"
-                        >
-                        {isLoading ? `Сохранение...` : submit}
-                        </button>
-
-                    </div>
-
-                </form>
+                </MainForm>
 
             </div>
 

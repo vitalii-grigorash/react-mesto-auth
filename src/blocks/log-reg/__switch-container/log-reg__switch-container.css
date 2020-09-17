@@ -1,0 +1,10 @@
+.log-reg__switch-container {
+    display: flex;
+    margin: 15px 0 0;
+    justify-content: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}

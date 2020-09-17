@@ -1,0 +1,8 @@
+.log-reg__switch-link {
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 0 0 0 10px;
+}
+.log-reg__switch-link:hover {
+    opacity: .6;
+}

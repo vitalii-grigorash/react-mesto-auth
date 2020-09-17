@@ -1,0 +1,17 @@
+@import url(./__form/log-reg__form.css);
+@import url(./__heading/log-reg__heading.css);
+@import url(./__input/log-reg__input.css);
+@import url(./__input/_email/log-reg__input_email.css);
+@import url(./__input/_password/log-reg__input_password.css);
+@import url(./__submit-button/log-reg__submit-button.css);
+@import url(./__switch-container/log-reg__switch-container.css);
+@import url(./__switch-heading/log-reg__switch-heading.css);
+@import url(./__switch-link/log-reg__switch-link.css);
+
+.log-reg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 358px;
+    margin: 60px auto 80px;
+}

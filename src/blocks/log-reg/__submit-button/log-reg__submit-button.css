@@ -1,0 +1,17 @@
+.log-reg__submit-button {
+    border: none;
+    width: 100%;
+    min-height: 50px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    background: #FFFFFF;
+    border-radius: 2px;
+    margin: 216px 0 0;
+}
+.log-reg__submit-button:hover {
+    opacity: .85;
+    cursor: pointer;
+}

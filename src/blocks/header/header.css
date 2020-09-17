@@ -1,5 +1,10 @@
 @import url(./__logo/header__logo.css);
+@import url(./__link/header__link.css);
+@import url(./__signout-button/header__signout-button.css);
+@import url(./__email-signout-container/header__email-signout-container.css);
 .header {
+    display: flex;
+    justify-content: space-between;
     max-width: 882px;
     min-height: 74px;
     border-bottom: 1px solid #545454;

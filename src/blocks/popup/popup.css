@@ -2,6 +2,9 @@
 @import url(./_type/popup_type_card-open.css);
 @import url(./_type/popup_type_card-remove.css);
 @import url(./_type/popup_type_avatar-edit.css);
+@import url(./_type/popup_type_info-tooltip.css);
+@import url(./__icon/popup__icon.css);
+@import url(./__under-icon-text/popup__under-icon-text.css);
 @import url(./__container/popup__container.css);
 @import url(./__container/_card-open/popup__container_card-open.css);
 @import url(./__container/_card-remove/popup__container_card-remove.css);
