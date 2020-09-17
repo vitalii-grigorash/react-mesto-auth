@@ -15,7 +15,7 @@ import ImagePopup from './ImagePopup';
 import { api } from '../utils/Api';
 import { CurrentUserContext } from '../contexts/CurrentUserContext';
 import successIcon from '../images/svg/Success.svg';
-import errorIcon from '../images/svg/Error.svg';
+import errorIcon from '../images/svg/Error_Icon.svg';
 import spinner from '../images/svg/Spinner.svg';
 import * as Auth from '../utils/Auth';
 
