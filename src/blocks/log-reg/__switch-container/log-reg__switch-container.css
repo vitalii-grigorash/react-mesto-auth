@@ -8,3 +8,9 @@
     line-height: 17px;
     color: #FFFFFF;
 }
+@media screen and (max-width: 360px) {
+    .log-reg__switch-container {
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
