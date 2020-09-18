@@ -1,0 +1,18 @@
+.popup__forms_info-tooltip {
+
+}
+@media screen and (max-width: 463px) {
+    .popup__forms_info-tooltip {
+        max-width: 300px;
+    }
+}
+@media screen and (max-width: 410px) {
+    .popup__forms_info-tooltip {
+        width: 250px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .popup__forms_info-tooltip {
+        width: 220px;
+    }
+}

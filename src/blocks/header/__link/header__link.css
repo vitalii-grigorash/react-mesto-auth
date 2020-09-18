@@ -1,5 +1,6 @@
 .header__link {
     text-decoration: none;
+    text-align: right;
     width: 114px;
     height: 22px;
     font-style: normal;
@@ -10,4 +11,9 @@
 }
 .header__link:hover {
     opacity: 0.6;
+}
+@media screen and (max-width: 905px) {
+    .header__link {
+        margin-right: 30px;
+    }
 }

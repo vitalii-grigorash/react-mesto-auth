@@ -19,10 +19,17 @@ min-height: 40px;
         top: -35px;
     }
 }
+
+@media screen and (max-width: 410px) {
+    .popup__close-button {
+        background-size: 40px;
+        right: 120px;
+        top: -45px;
+    }
+}
 @media screen and (max-width: 360px) {
     .popup__close-button {
         background-size: 35px;
-        right: -30px;
-        top: -30px;
+        right: 105px;
     }
 }

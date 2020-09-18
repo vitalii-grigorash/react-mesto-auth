@@ -25,6 +25,7 @@
 @import url(./__input/_name-error/_active/popup__input_name-error_active.css);
 @import url(./__forms/popup__forms.css);
 @import url(./__forms/_new-card/popup__forms_new-card.css);
+@import url(./__forms/_info-tooltip/popup__forms_info-tooltip.css);
 .popup {
     display: flex;
     position: fixed;

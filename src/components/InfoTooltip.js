@@ -6,7 +6,7 @@ function InfoTooltip(props) {
   
     return (
       <PopupWithForm
-        name='infoTooltip'
+        name='info-tooltip'
         noConfirm={true}
         isOpen={isOpen}
         onClose={onClose}
