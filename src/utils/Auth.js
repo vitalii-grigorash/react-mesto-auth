@@ -60,4 +60,4 @@ export const getContent = (token) => fetch(`${BASE_URL}/users/me`, {
     }
     return res.json()
   })
-  .then((data) => data)
+  .then((data) => data);
