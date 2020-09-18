@@ -1,8 +1,14 @@
 .header__email-signout-container {
-
+    
 }
 @media screen and (max-width: 905px) {
     .header__email-signout-container {
         margin-right: 30px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .header__email-signout-container {
+        display: flex;
+        flex-direction: column;
     }
 }
