@@ -1,3 +1,8 @@
 .header__email-signout-container {
-    border: 1px solid red;
+
+}
+@media screen and (max-width: 905px) {
+    .header__email-signout-container {
+        margin-right: 30px;
+    }
 }
