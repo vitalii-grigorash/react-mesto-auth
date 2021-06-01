@@ -1,4 +1,4 @@
-# Mesto. Фронтенд проекта Mesto на Реакте с авторизацией и регистрацией.
+# Mesto. Фронтенд проекта Mesto на Реакте с авторизацией и регистрацией
 
 Этот проект создан с помощью [Create React App](https://github.com/facebook/create-react-app).
 
